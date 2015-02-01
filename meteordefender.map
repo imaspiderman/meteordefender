@@ -1,0 +1,291 @@
+Archive member included because of file (symbol)
+
+/opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_2c.o)
+                              /tmp/ccnBtOSC.o (__save_r2_r31)
+/opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_22c.o)
+                              /tmp/ccnBtOSC.o (__save_r22_r31)
+/opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_24c.o)
+                              /tmp/ccnBtOSC.o (__save_r24_r31)
+/opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_25c.o)
+                              /tmp/ccnBtOSC.o (__save_r25_r31)
+/opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_27c.o)
+                              /tmp/ccnBtOSC.o (__save_r27_r31)
+/opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_28c.o)
+                              /tmp/ccnBtOSC.o (__save_r28_r31)
+/opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_29c.o)
+                              /tmp/ccnBtOSC.o (__save_r29_r31)
+/opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_31c.o)
+                              /tmp/ccnBtOSC.o (__save_r31)
+
+Allocating common symbols
+Common symbol       size              file
+
+g                   0xcc              /tmp/ccnBtOSC.o
+m1                  0xcc              /tmp/ccnBtOSC.o
+c5                  0xcc              /tmp/ccnBtOSC.o
+gameNodes           0x3c0             /tmp/ccnBtOSC.o
+m6                  0xcc              /tmp/ccnBtOSC.o
+meteorSpeed         0x4               /tmp/ccnBtOSC.o
+crossH              0x14              /tmp/ccnBtOSC.o
+c1                  0xcc              /tmp/ccnBtOSC.o
+c2                  0xcc              /tmp/ccnBtOSC.o
+vertexBuffer        0x4e20            /tmp/ccnBtOSC.o
+accelerator         0x1               /tmp/ccnBtOSC.o
+c6                  0xcc              /tmp/ccnBtOSC.o
+m2                  0xcc              /tmp/ccnBtOSC.o
+tick                0x4               /tmp/ccnBtOSC.o
+m5                  0xcc              /tmp/ccnBtOSC.o
+c4                  0xcc              /tmp/ccnBtOSC.o
+m3                  0xcc              /tmp/ccnBtOSC.o
+cam                 0x90              /tmp/ccnBtOSC.o
+c3                  0xcc              /tmp/ccnBtOSC.o
+m4                  0xcc              /tmp/ccnBtOSC.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+wram             0x05000000         0x00010000         !r
+rom              0x07000000         0x01000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /opt/gccvb/lib/gcc/v810/4.4.2/../../../../v810/lib/crt0.o
+LOAD /tmp/ccnBtOSC.o
+LOAD /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a
+LOAD /opt/gccvb/lib/gcc/v810/4.4.2/../../../../v810/lib/libc.a
+LOAD /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a
+TARGET(elf32-v810)
+                0x07000000                __text_start = 0x7000000
+                0x05000000                __data_start = 0x5000000
+                0x05008000                __gp = (__data_start + 0x8000)
+                0x07000000                . = __text_start
+
+.text           0x07000000     0x3ae8
+ *(.text)
+ .text          0x07000000      0x28e /opt/gccvb/lib/gcc/v810/4.4.2/../../../../v810/lib/crt0.o
+                0x07000000                _start
+                0x07000180                __inthnd
+ *fill*         0x0700028e        0x2 ff
+ .text          0x07000290     0x3678 /tmp/ccnBtOSC.o
+                0x07000290                _jump_addr
+                0x070002a4                _vbWaitFrame
+                0x070002d8                _vbDisplayOn
+                0x070003dc                _vbDisplayOff
+                0x0700042c                _vbDisplayShow
+                0x07000464                _vbDisplayHide
+                0x07000494                _vbFXFadeIn
+                0x070004f8                _vbFXFadeOut
+                0x07000564                _vbSetColTable
+                0x070005d8                _affine_clr_param
+                0x07000624                _affine_scale
+                0x07000738                _affine_fast_scale
+                0x070007c0                _set_intlevel
+                0x070007e0                _get_intlevel
+                0x070007ec                _vbReadPad
+                0x07000830                _vbPadKeyDown
+                0x07000858                _vbPadKeyUp
+                0x07000880                _copymem
+                0x070008a4                _setmem
+                0x070008c4                _addmem
+                0x070008f0                _cls
+                0x07000908                _vbTextOut
+                0x07000954                _vbPrint
+                0x07000a10                _vbSetObject
+                0x07000a7c                _randseed
+                0x07000ad0                _randnum
+                0x07000ad8                _vbSetWorld
+                0x07000bac                _timer_enable
+                0x07000bf0                _timer_get
+                0x07000c18                _timer_set
+                0x07000c38                _timer_freq
+                0x07000c80                _timer_int
+                0x07000cc4                _timer_getstat
+                0x07000cd8                _timer_clearstat
+                0x07000cf4                _g3d_copyVector3d
+                0x07000d20                _g3d_scale
+                0x07000d90                _g3d_rotateXAxis
+                0x07000de8                _g3d_rotateYAxis
+                0x07000e40                _g3d_rotateZAxis
+                0x07000e98                _g3d_rotateAllAxis
+                0x0700101c                _g3d_translate
+                0x07001040                _g3d_cameraTranslate
+                0x07001064                _g3d_calculateProjection
+                0x070010b8                _g3d_detectCollision
+                0x0700117c                _g3d_clipZAxis
+                0x07001218                _g3d_drawPoint
+                0x0700128c                _g3d_initObject
+                0x07001310                _g3d_moveObject
+                0x070014f8                _g3d_moveCamera
+                0x070016ac                _calculateSpeed
+                0x070016f4                _handleInput
+                0x070018a0                _addNode
+                0x0700190c                _getHitSquare
+                0x070019a8                _detectHit
+                0x070019ac                _initCam
+                0x070019f4                _timeHnd
+                0x07001a4c                _vbInit
+                0x07001b18                _screenControl
+                0x07001b94                _g3d_drawLine
+                0x07001d78                _drawCrossHairs
+                0x07001e50                _g3d_cameraRotateAllAxis
+                0x07001fe0                _initObjects
+                0x070029c4                _g3d_renderVector3d
+                0x07002cfc                _g3d_renderObject
+                0x07002db8                _g3d_clipObject
+                0x07002fa0                _g3d_drawObject
+                0x07003374                _main
+ .text          0x07003908       0x70 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_2c.o)
+                0x07003908                __save_r2_r31
+                0x07003940                __return_r2_r31
+ .text          0x07003978       0x58 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_22c.o)
+                0x07003978                __save_r22_r31
+                0x070039a4                __return_r22_r31
+ .text          0x070039d0       0x48 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_24c.o)
+                0x070039d0                __save_r24_r31
+                0x070039f4                __return_r24_r31
+ .text          0x07003a18       0x40 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_25c.o)
+                0x07003a18                __save_r25_r31
+                0x07003a38                __return_r25_r31
+ .text          0x07003a58       0x30 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_27c.o)
+                0x07003a58                __save_r27_r31
+                0x07003a70                __return_r27_r31
+ .text          0x07003a88       0x28 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_28c.o)
+                0x07003a88                __save_r28_r31
+                0x07003a9c                __return_r28_r31
+ .text          0x07003ab0       0x20 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_29c.o)
+                0x07003ab0                __save_r29_r31
+                0x07003ac0                __return_r29_r31
+ .text          0x07003ad0       0x18 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_31c.o)
+                0x07003ad0                __save_r31
+                0x07003adc                __return_r31
+ *(.text.*)
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+                0x07003ae8                __text_end = .
+
+.rodata         0x07003ae8     0x2f00
+ *(.rodata)
+ .rodata        0x07003ae8     0x2f00 /tmp/ccnBtOSC.o
+                0x07003ae8                _L_FRAME0
+                0x07003aec                _L_FRAME1
+                0x07003af0                _R_FRAME0
+                0x07003af4                _R_FRAME1
+                0x07003af8                _BGMM
+                0x07003afc                _WAM
+                0x07003b00                _CLMN_TBL
+                0x07003b04                _OAM
+                0x07003b08                _colTable
+                0x07003b88                _WAVEDATA1
+                0x07003b8c                _WAVEDATA2
+                0x07003b90                _WAVEDATA3
+                0x07003b94                _WAVEDATA4
+                0x07003b98                _WAVEDATA5
+                0x07003b9c                _MODDATA
+                0x07003ba0                _SND_REGS
+                0x07003ba4                _HW_REGS
+                0x07003ba8                _EXPANSION
+                0x07003bac                _WORKRAM
+                0x07003bb0                _SAVERAM
+                0x07003bb4                _nums
+                0x07003bc4                _WA
+                0x07003bc8                _cosine
+                0x07004168                _sine
+                0x07004708                _PVB_FONT
+                0x07006708                _city
+                0x07006898                _ground
+                0x07006934                _meteor
+ *all.rodata*(*)
+ *(.roda)
+ *(.rodata.*)
+ *(.gnu.linkonce.r*)
+                0x070069e8                __data_lma = .
+
+.data           0x05000000        0xc load address 0x070069e8
+ *(.data)
+ .data          0x05000000        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/../../../../v810/lib/crt0.o
+ .data          0x05000000        0xc /tmp/ccnBtOSC.o
+                0x05000000                _VIP_REGS
+                0x05000004                _currentFrameBuffer
+ .data          0x0500000c        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_2c.o)
+ .data          0x0500000c        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_22c.o)
+ .data          0x0500000c        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_24c.o)
+ .data          0x0500000c        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_25c.o)
+ .data          0x0500000c        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_27c.o)
+ .data          0x0500000c        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_28c.o)
+ .data          0x0500000c        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_29c.o)
+ .data          0x0500000c        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_31c.o)
+ *(.data.*)
+ *(.gnu.linkonce.d*)
+
+.sdata
+ *(.sdata)
+                0x0500000c                __data_end = .
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x0500000c     0x5d00 load address 0x070069f4
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0500000c        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/../../../../v810/lib/crt0.o
+ .bss           0x0500000c       0x14 /tmp/ccnBtOSC.o
+                0x0500000c                _oldkeydown
+                0x0500000e                _oldkeyup
+                0x05000010                _tcr_val
+                0x05000014                _numVertices
+                0x05000018                _nextFrameBuffer
+                0x0500001c                _frameSkip
+                0x0500001d                _frameSkipCount
+                0x0500001e                _gameNodeIdx
+ .bss           0x05000020        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_2c.o)
+ .bss           0x05000020        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_22c.o)
+ .bss           0x05000020        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_24c.o)
+ .bss           0x05000020        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_25c.o)
+ .bss           0x05000020        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_27c.o)
+ .bss           0x05000020        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_28c.o)
+ .bss           0x05000020        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_29c.o)
+ .bss           0x05000020        0x0 /opt/gccvb/lib/gcc/v810/4.4.2/libgcc.a(_save_31c.o)
+ *(COMMON)
+ COMMON         0x05000020     0x5cec /tmp/ccnBtOSC.o
+                0x05000020                _g
+                0x050000ec                _m1
+                0x050001b8                _c5
+                0x05000284                _gameNodes
+                0x05000644                _m6
+                0x05000710                _meteorSpeed
+                0x05000714                _crossH
+                0x05000728                _c1
+                0x050007f4                _c2
+                0x050008c0                _vertexBuffer
+                0x050056e0                _accelerator
+                0x050056e4                _c6
+                0x050057b0                _m2
+                0x0500587c                _tick
+                0x05005880                _m5
+                0x0500594c                _c4
+                0x05005a18                _m3
+                0x05005ae4                _cam
+                0x05005b74                _c3
+                0x05005c40                _m4
+                0x070069f4                v = (__data_lma + (__data_end - __data_start))
+                [0x00007fff]                v = (v + 0x21f)
+                [0x00007fff]                v = (v & 0xffffff)
+                [0x00007fff]                v = (v | (v >> 0x1))
+                [0x00007fff]                v = (v | (v >> 0x2))
+                [0x00007fff]                v = (v | (v >> 0x4))
+                [0x00007fff]                v = (v | (v >> 0x8))
+                [0x00007fff]                v = (v | (v >> 0x10))
+                0x07007fff                __vectors_end = (__text_start + v)
+                0x07007de0                __vectors_lma = (__vectors_end - 0x21f)
+
+.vectors        0x07007de0      0x220
+ *(.vectors)
+ .vectors       0x07007de0      0x220 /opt/gccvb/lib/gcc/v810/4.4.2/../../../../v810/lib/crt0.o
+                0x07007de0                _rom_header
+OUTPUT(meteordefender.o elf32-v810)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 /tmp/ccnBtOSC.o
+                                 0x12 (size before relaxing)
