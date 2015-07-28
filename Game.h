@@ -39,8 +39,8 @@ const s32 city[]={
 	//indexes
 	0,1, 1,2, 2,3, 3,4,
 	4,5, 5,6, 7,8, 8,9,
-	9,10, 11,12, 12,13,	13,14, 
-	15,16, 16,17, 16,18, 18,19, 
+	9,10, 11,12, 12,13,	13,14,
+	15,16, 16,17, 16,18, 18,19,
 	19,20
 };
 
@@ -58,19 +58,19 @@ const s32 ground[]={
 	2,3, 4,5
 };
 
-const s32 meteor[]={
-	18,//total size of vertices
-	24,//total indexes
-	2,//face size
-	//vertices
-	-200,0,-200, -200,0,200,
-	200,0,200, 200,0,-200,
-	0,200,0, 0,-200,0,
-	//indexes
-	0,1, 1,2, 2,3, 3,0,
-	0,4, 4,2, 2,5, 5,0,
-	1,4, 4,3, 3,5, 5,1
-};
+const s32 meteor[]={42, //total number of vertices
+	60, //total number of line end points
+	2,
+	//Distinct vertices
+	-1304,216,1136,1288,216,1136,-512,864,-496,504,864,-496
+	,1288,-216,1136,-1304,-216,1136,504,-64,-496,-512,-64,-496
+	,-2512,440,2328,-2512,-208,2328,-1384,-904,3944,2344,344,2416
+	,2344,-304,2416,1304,-696,3968
+	//Vertex indexes
+	,0,1,1,2,2,0,1,3,3,2,4,5,5,6,6,4
+	,5,7,7,6,2,5,5,0,2,7,6,1,1,4,6,3
+	,2,6,1,5,8,5,0,8,8,9,9,5,9,10,10,8
+	,4,11,11,1,12,11,4,12,13,12,11,13};
 
 void vbInit();
 void screenControl();
@@ -81,6 +81,6 @@ void inline drawCrossHairs(vector3d*);
 void inline calculateSpeed(object* o);
 void timeHnd(void);
 void addNode(object*,u8,u8);
-void getHitSquare(vector3d*,vector3d*);
-u8 detectHit(vector3d*,vector3d*,vector3d*,vector3d*);
+void getHitSquare(object*,vector3d*,vector3d*);
+void detectHit(vector3d*,vector3d*,vector3d*,vector3d*,u8*);
 #endif
